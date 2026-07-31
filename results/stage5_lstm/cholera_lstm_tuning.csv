@@ -1,0 +1,4 @@
+candidate_index,architecture,batch_size,learning_rate,best_epoch,epochs_ran,validation_rmse_scaled,fit_time_sec,model_size_bytes,n_parameters
+0,small,16,0.001,15,30,0.006716370928522569,10.084880220000741,19588,4897
+1,medium,16,0.001,10,25,0.006905766647082624,7.824995021000177,71812,17953
+2,stacked,16,0.001,57,72,0.007150061616984292,19.34836976800034,119428,29857

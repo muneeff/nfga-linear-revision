@@ -1,0 +1,38 @@
+{
+  "cholera": {
+    "architecture": "small",
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "selected_epochs": 15,
+    "window_size": 52,
+    "validation_protocol": "last_20_percent_of_training_windows",
+    "final_fit_protocol": "all_training_windows_for_selected_epochs",
+    "threshold_calibration": "absolute_chronological_validation_residuals",
+    "threshold": 113.59828415813446,
+    "threshold_method": "median_plus_k_scaled_mad"
+  },
+  "ilinet": {
+    "architecture": "small",
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "selected_epochs": 12,
+    "window_size": 24,
+    "validation_protocol": "last_20_percent_of_training_windows",
+    "final_fit_protocol": "all_training_windows_for_selected_epochs",
+    "threshold_calibration": "absolute_chronological_validation_residuals",
+    "threshold": 0.8498749342270195,
+    "threshold_method": "median_plus_k_scaled_mad"
+  },
+  "electricity": {
+    "architecture": "small",
+    "batch_size": 16,
+    "learning_rate": 0.001,
+    "selected_epochs": 38,
+    "window_size": 16,
+    "validation_protocol": "last_20_percent_of_training_windows",
+    "final_fit_protocol": "all_training_windows_for_selected_epochs",
+    "threshold_calibration": "absolute_chronological_validation_residuals",
+    "threshold": 0.3373933903351426,
+    "threshold_method": "median_plus_k_scaled_mad"
+  }
+}

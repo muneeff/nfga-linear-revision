@@ -1,0 +1,4 @@
+dataset,model,threshold,calibration_residual_median,calibration_residual_mad,threshold_method,n_calibration_residuals
+cholera,LSTM,113.59828415813446,29.876806259155273,16.134103775024414,median_plus_k_scaled_mad,56
+ilinet,LSTM,0.8498749342270195,0.1896715611219406,0.12722887843847275,median_plus_k_scaled_mad,37
+electricity,LSTM,0.3373933903351426,0.08673999831080437,0.04830382764339447,median_plus_k_scaled_mad,30

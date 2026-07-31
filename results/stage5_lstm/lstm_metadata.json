@@ -1,0 +1,35 @@
+{
+  "tensorflow_version": "2.20.0",
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    110
+  ],
+  "tuning_seed": 20260731,
+  "max_epochs": 150,
+  "patience": 15,
+  "protocol": "fixed_fit_full_test_one_step_ahead_with_observed_history",
+  "hyperparameter_selection": "chronological holdout within training only",
+  "final_training": "all training windows for selected epoch count",
+  "anomaly_threshold_calibration": "absolute residuals on chronological training holdout",
+  "parameter_grid": {
+    "architecture": [
+      "small",
+      "medium",
+      "stacked"
+    ],
+    "batch_size": [
+      16
+    ],
+    "learning_rate": [
+      0.001
+    ]
+  }
+}
