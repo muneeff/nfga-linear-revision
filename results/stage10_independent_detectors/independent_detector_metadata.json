@@ -1,0 +1,18 @@
+{
+  "separation_principle": "Isolation Forest, One-Class SVM, Local Outlier Factor, and Robust-Z are evaluated only as anomaly detectors, never as forecasting models.",
+  "window_detectors": {
+    "training": "first chronological 80% of clean training windows",
+    "calibration": "last chronological 20% of clean training windows",
+    "threshold": "95th percentile of calibration anomaly scores, corresponding to a prespecified 5% calibration false-positive target",
+    "test_input": "window ending at the current observed value; prior injected values remain in subsequent windows"
+  },
+  "robust_z": {
+    "threshold": 3.5,
+    "statistics": "median and MAD from clean training observations"
+  },
+  "important_limitations": [
+    "Injected scenarios are synthetic and contain few positive points.",
+    "Proxy robust-z labels are exploratory rather than verified ground truth.",
+    "Detectors use different inductive biases; ranking is scenario-dependent."
+  ]
+}
