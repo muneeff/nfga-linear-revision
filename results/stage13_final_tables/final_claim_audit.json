@@ -1,0 +1,62 @@
+{
+  "best_forecast_by_dataset_descriptive": [
+    {
+      "dataset": "cholera",
+      "model": "Persistence",
+      "RMSE_mean": 96.03446801861844,
+      "result_type": "single_deterministic_run"
+    },
+    {
+      "dataset": "electricity",
+      "model": "Prophet",
+      "RMSE_mean": 0.1300183616937198,
+      "result_type": "single_deterministic_run"
+    },
+    {
+      "dataset": "ilinet",
+      "model": "ARIMA",
+      "RMSE_mean": 0.395145761258978,
+      "result_type": "single_deterministic_run"
+    }
+  ],
+  "electricity_prophet_minus_xgboost_rmse": -1.063755250690912e-06,
+  "electricity_interpretation": "Prophet and XGBoost are numerically indistinguishable at the reported precision; Prophet is a single deterministic run, while XGBoost is summarized over ten seeds.",
+  "detector_scenario_winner_counts": {
+    "Prophet residual detector": 3,
+    "NFGA-LINEAR residual detector": 2,
+    "Robust-Z": 1
+  },
+  "detector_macro_winners": [
+    {
+      "dataset": "cholera",
+      "detector": "NFGA-LINEAR residual detector",
+      "macro_F1": 0.5678409825468649,
+      "macro_FalsePositiveRate": 0.055
+    },
+    {
+      "dataset": "electricity",
+      "detector": "Prophet residual detector",
+      "macro_F1": 1.0,
+      "macro_FalsePositiveRate": 0.0
+    },
+    {
+      "dataset": "ilinet",
+      "detector": "NFGA-LINEAR residual detector",
+      "macro_F1": 0.46692036463708286,
+      "macro_FalsePositiveRate": 0.1857794181502388
+    }
+  ],
+  "allowed_claims": [
+    "No forecasting model was best on all datasets.",
+    "NFGA-LINEAR offered a compact accuracy-complexity trade-off and significantly improved over NFGA-Core in the primary matched RMSE analysis.",
+    "After adding corrected Prophet results, NFGA-LINEAR was the best synthetic-anomaly detector in two of six scenarios and the best macro-F1 detector on Cholera and ILINet.",
+    "Prophet achieved perfect detection on the small synthetic Electricity scenarios, but this does not establish broad real-world superiority."
+  ],
+  "forbidden_claims": [
+    "NFGA-LINEAR was universally best in forecasting.",
+    "NFGA-LINEAR was best in five of six anomaly scenarios.",
+    "Prophet was significantly better than XGBoost on Electricity.",
+    "Synthetic anomaly results prove real-world anomaly detection.",
+    "Robust-Z proxy-label performance is independent validation."
+  ]
+}

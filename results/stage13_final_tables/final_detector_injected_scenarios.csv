@@ -1,0 +1,37 @@
+dataset,detector,detector_category,scenario,n_runs,n_reference_anomalies,n_detected_mean,n_detected_std,Precision_mean,Precision_std,Recall_mean,Recall_std,F1_mean,F1_std,Specificity_mean,FalsePositiveRate_mean,BalancedAccuracy_mean,metric_status,F1_rank,FPR_rank
+cholera,NFGA-LINEAR residual detector,forecast_residual_detector,injected_10pct,10,8,7.8,0.9189365834726816,0.519047619047619,0.0588230353849197,0.5,0.0,0.5078431372549019,0.0289358740146126,0.95,0.05,0.725,applicable,1.0,2.0
+cholera,Robust-Z,independent_point_detector,injected_10pct,1,8,2.0,,1.0,,0.25,,0.4,,1.0,0.0,0.625,applicable,2.0,1.0
+cholera,IsolationForest,independent_window_detector,injected_10pct,10,8,52.8,13.579396157414363,0.1260557506152187,0.0314416194402003,0.7875,0.1029090752935705,0.2150342298517202,0.043836098110602,0.3881578947368421,0.6118421052631579,0.5878289473684211,applicable,3.0,4.0
+cholera,LocalOutlierFactor,independent_window_detector,injected_10pct,1,8,84.0,,0.0952380952380952,,1.0,,0.1739130434782608,,0.0,1.0,0.5,applicable,4.0,5.0
+cholera,OneClassSVM,independent_window_detector,injected_10pct,1,8,84.0,,0.0952380952380952,,1.0,,0.1739130434782608,,0.0,1.0,0.5,applicable,4.0,5.0
+cholera,Prophet residual detector,forecast_residual_detector,injected_10pct,1,8,49.0,,0.0612244897959183,,0.375,,0.1052631578947368,,0.3947368421052631,0.6052631578947368,0.3848684210526315,applicable,6.0,3.0
+cholera,Robust-Z,independent_point_detector,injected_5pct,1,4,2.0,,1.0,,0.5,,0.6666666666666666,,1.0,0.0,0.75,applicable,1.0,1.0
+cholera,NFGA-LINEAR residual detector,forecast_residual_detector,injected_5pct,10,4,8.8,0.9189365834726814,0.4588888888888888,0.0462740687381792,1.0,0.0,0.6278388278388278,0.0439628267728355,0.94,0.06,0.97,applicable,2.0,2.0
+cholera,Prophet residual detector,forecast_residual_detector,injected_5pct,1,4,53.0,,0.0754716981132075,,1.0,,0.1403508771929824,,0.3875,0.6125,0.69375,applicable,3.0,3.0
+cholera,IsolationForest,independent_window_detector,injected_5pct,10,4,68.7,5.143496432929214,0.0585376348059866,0.0046707679868552,1.0,0.0,0.1105679848520156,0.0083014872396087,0.19125,0.8087500000000001,0.595625,applicable,4.0,4.0
+cholera,LocalOutlierFactor,independent_window_detector,injected_5pct,1,4,84.0,,0.0476190476190476,,1.0,,0.0909090909090909,,0.0,1.0,0.5,applicable,5.0,5.0
+cholera,OneClassSVM,independent_window_detector,injected_5pct,1,4,84.0,,0.0476190476190476,,1.0,,0.0909090909090909,,0.0,1.0,0.5,applicable,5.0,5.0
+electricity,Prophet residual detector,forecast_residual_detector,injected_10pct,1,4,4.0,,1.0,,1.0,,1.0,,1.0,0.0,1.0,applicable,1.0,1.0
+electricity,NFGA-LINEAR residual detector,forecast_residual_detector,injected_10pct,10,4,8.7,0.6749485577105532,0.4622222222222222,0.0352144128118658,1.0,0.0,0.6315018315018315,0.0330889078113881,0.8763157894736843,0.1236842105263157,0.938157894736842,applicable,2.0,3.0
+electricity,Robust-Z,independent_point_detector,injected_10pct,1,4,1.0,,1.0,,0.25,,0.4,,1.0,0.0,0.625,applicable,3.0,1.0
+electricity,LocalOutlierFactor,independent_window_detector,injected_10pct,1,4,36.0,,0.1111111111111111,,1.0,,0.2,,0.1578947368421052,0.8421052631578947,0.5789473684210527,applicable,4.0,5.0
+electricity,IsolationForest,independent_window_detector,injected_10pct,10,4,28.0,2.0,0.1076233684897478,0.0075015319204767,0.75,0.0,0.1881448762637829,0.0114960973923064,0.3421052631578947,0.6578947368421053,0.5460526315789473,applicable,5.0,4.0
+electricity,OneClassSVM,independent_window_detector,injected_10pct,1,4,39.0,,0.1025641025641025,,1.0,,0.1860465116279069,,0.0789473684210526,0.9210526315789472,0.5394736842105263,applicable,6.0,6.0
+electricity,Prophet residual detector,forecast_residual_detector,injected_5pct,1,2,2.0,,1.0,,1.0,,1.0,,1.0,0.0,1.0,applicable,1.0,1.0
+electricity,NFGA-LINEAR residual detector,forecast_residual_detector,injected_5pct,10,2,4.2,0.4216370213557839,0.48,0.0421637021355783,1.0,0.0,0.6476190476190476,0.0401559067957889,0.945,0.055,0.9725,applicable,2.0,3.0
+electricity,LocalOutlierFactor,independent_window_detector,injected_5pct,1,2,23.0,,0.0869565217391304,,1.0,,0.16,,0.475,0.525,0.7375,applicable,3.0,5.0
+electricity,OneClassSVM,independent_window_detector,injected_5pct,1,2,31.0,,0.064516129032258,,1.0,,0.1212121212121212,,0.275,0.725,0.6375,applicable,4.0,6.0
+electricity,IsolationForest,independent_window_detector,injected_5pct,10,2,12.2,1.0327955589886446,0.0,0.0,0.0,0.0,0.0,0.0,0.6950000000000001,0.305,0.3475,applicable,5.0,4.0
+electricity,Robust-Z,independent_point_detector,injected_5pct,1,2,0.0,,0.0,,0.0,,0.0,,1.0,0.0,0.5,applicable,5.0,1.0
+ilinet,NFGA-LINEAR residual detector,forecast_residual_detector,injected_10pct,10,5,12.1,0.9944289260117534,0.4065767565767566,0.0337662036626399,0.98,0.0632455532033675,0.5740368077055383,0.0400593169099665,0.8468085106382979,0.1531914893617021,0.913404255319149,applicable,1.0,2.0
+ilinet,Prophet residual detector,forecast_residual_detector,injected_10pct,1,5,7.0,,0.2857142857142857,,0.4,,0.3333333333333333,,0.8936170212765957,0.1063829787234042,0.6468085106382979,applicable,2.0,1.0
+ilinet,IsolationForest,independent_window_detector,injected_10pct,10,5,13.1,2.424412872795757,0.0793427405927405,0.018512550589954,0.2,0.0,0.1125752635737155,0.0174474018215114,0.7425531914893617,0.2574468085106383,0.4712765957446809,applicable,3.0,4.0
+ilinet,OneClassSVM,independent_window_detector,injected_10pct,1,5,28.0,,0.0357142857142857,,0.2,,0.0606060606060606,,0.425531914893617,0.574468085106383,0.3127659574468085,applicable,4.0,6.0
+ilinet,LocalOutlierFactor,independent_window_detector,injected_10pct,1,5,16.0,,0.0,,0.0,,0.0,,0.6595744680851063,0.3404255319148936,0.3297872340425531,applicable,5.0,5.0
+ilinet,Robust-Z,independent_point_detector,injected_10pct,1,5,8.0,,0.0,,0.0,,0.0,,0.8297872340425532,0.1702127659574468,0.4148936170212766,applicable,5.0,3.0
+ilinet,Prophet residual detector,forecast_residual_detector,injected_5pct,1,3,7.0,,0.2857142857142857,,0.6666666666666666,,0.4,,0.8979591836734694,0.1020408163265306,0.782312925170068,applicable,1.0,1.0
+ilinet,NFGA-LINEAR residual detector,forecast_residual_detector,injected_5pct,10,3,13.7,0.6749485577105531,0.2194505494505494,0.0106674565983718,1.0,0.0,0.3598039215686274,0.0143753708809952,0.7816326530612245,0.2183673469387755,0.8908163265306122,applicable,2.0,2.0
+ilinet,LocalOutlierFactor,independent_window_detector,injected_5pct,1,3,27.0,,0.074074074074074,,0.6666666666666666,,0.1333333333333333,,0.4897959183673469,0.5102040816326531,0.5782312925170068,applicable,3.0,5.0
+ilinet,OneClassSVM,independent_window_detector,injected_5pct,1,3,33.0,,0.0606060606060606,,0.6666666666666666,,0.1111111111111111,,0.3673469387755102,0.6326530612244898,0.5170068027210885,applicable,4.0,6.0
+ilinet,IsolationForest,independent_window_detector,injected_5pct,10,3,16.2,1.6193277068654823,0.0623190943043884,0.0065772947477316,0.3333333333333333,0.0,0.1048680524841515,0.0092516005247537,0.689795918367347,0.310204081632653,0.5115646258503401,applicable,5.0,4.0
+ilinet,Robust-Z,independent_point_detector,injected_5pct,1,3,11.0,,0.0,,0.0,,0.0,,0.7755102040816326,0.2244897959183673,0.3877551020408163,applicable,6.0,3.0

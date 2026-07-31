@@ -1,0 +1,25 @@
+dataset,model,training_time_mean_sec,per_step_refit_time_mean_sec,inference_latency_mean_sec,total_online_step_time_mean_sec,model_size_mean_bytes,cost_interpretation
+cholera,ARIMA,,0.0165053054404324,0.0,0.0165053054404324,,ARIMA timing includes per-step refitting and forecasting.
+cholera,LSTM,3.5305493975004536,0.0,0.01155261149643,0.01155261149643,19588.0,Fixed fitted model; stored weight-array size.
+cholera,NFGA-Core,1.095396897400042,0.0,7.620208095236844e-05,7.620208095236844e-05,3196.8,Fixed fitted model; antecedent/consequent array size only.
+cholera,NFGA-LINEAR,0.7975788800998999,0.0,8.050379047376953e-05,8.050379047376953e-05,2120.0,Fixed fitted model; antecedent/consequent array size only.
+cholera,Persistence,,0.0,3.524523673972692e-07,3.524523673972692e-07,,Closed-form deterministic baseline.
+cholera,Prophet,,0.1833902935119394,0.0388813744523845,0.2222716679643239,45574.0,Walk-forward Prophet refits at every test step; serialized final fitted object size.
+cholera,SeasonalNaive,,0.0,5.160118776291797e-07,5.160118776291797e-07,,Closed-form deterministic baseline.
+cholera,XGBoost,2.037648533499987,0.0,0.0010740558547565,0.0010740558547565,574278.0,Fixed fitted model; serialized booster size.
+electricity,ARIMA,,0.0316383513809341,0.0,0.0316383513809341,,ARIMA timing includes per-step refitting and forecasting.
+electricity,LSTM,5.219239177600139,0.0,0.0098275373333568,0.0098275373333568,19588.0,Fixed fitted model; stored weight-array size.
+electricity,NFGA-Core,0.7732059094999386,0.0,7.675185002404933e-05,7.675185002404933e-05,1152.0,Fixed fitted model; antecedent/consequent array size only.
+electricity,NFGA-LINEAR,0.940036215800046,0.0,0.0001103564500096,0.0001103564500096,1958.4,Fixed fitted model; antecedent/consequent array size only.
+electricity,Persistence,,0.0,4.299048062724372e-07,4.299048062724372e-07,,Closed-form deterministic baseline.
+electricity,Prophet,,0.0473725813810146,0.0152303818094878,0.0626029631905024,27294.0,Walk-forward Prophet refits at every test step; serialized final fitted object size.
+electricity,SeasonalNaive,,0.0,5.831666277074311e-07,5.831666277074311e-07,,Closed-form deterministic baseline.
+electricity,XGBoost,0.330095786100037,0.0,0.0007002607881022,0.0007002607881022,303884.6,Fixed fitted model; serialized booster size.
+ilinet,ARIMA,,0.0768963765000133,0.0,0.0768963765000133,,ARIMA timing includes per-step refitting and forecasting.
+ilinet,LSTM,2.59118318689998,0.0,0.010960840982695,0.010960840982695,19588.0,Fixed fitted model; stored weight-array size.
+ilinet,NFGA-Core,0.9014710488001584,0.0,9.422970001826168e-05,9.422970001826168e-05,1497.6,Fixed fitted model; antecedent/consequent array size only.
+ilinet,NFGA-LINEAR,0.9178069213000526,0.0,0.0001026179961697,0.0001026179961697,2880.0,Fixed fitted model; antecedent/consequent array size only.
+ilinet,Persistence,,0.0,4.1959614149023917e-07,4.1959614149023917e-07,,Closed-form deterministic baseline.
+ilinet,Prophet,,0.0696765240576356,0.0237263844422928,0.0934029084999284,31919.0,Walk-forward Prophet refits at every test step; serialized final fitted object size.
+ilinet,SeasonalNaive,,0.0,4.26250057199258e-07,4.26250057199258e-07,,Closed-form deterministic baseline.
+ilinet,XGBoost,0.1232663793999108,0.0,0.000650103490388,0.000650103490388,179516.6,Fixed fitted model; serialized booster size.
