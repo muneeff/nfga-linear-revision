@@ -1,0 +1,50 @@
+{
+  "cholera:NFGA-Core": {
+    "calibration_seed": 20260731,
+    "n_fit": 225,
+    "n_validation": 56,
+    "selected_K": 8,
+    "calibration_time_sec": 1.0761977799993474,
+    "calibration_generations": 40
+  },
+  "cholera:NFGA-LINEAR": {
+    "calibration_seed": 20260731,
+    "n_fit": 225,
+    "n_validation": 56,
+    "selected_K": 3,
+    "calibration_time_sec": 0.6281646070001443,
+    "calibration_generations": 20
+  },
+  "ilinet:NFGA-Core": {
+    "calibration_seed": 20260731,
+    "n_fit": 147,
+    "n_validation": 37,
+    "selected_K": 8,
+    "calibration_time_sec": 0.8046084210000117,
+    "calibration_generations": 40
+  },
+  "ilinet:NFGA-LINEAR": {
+    "calibration_seed": 20260731,
+    "n_fit": 147,
+    "n_validation": 37,
+    "selected_K": 7,
+    "calibration_time_sec": 0.815859188000104,
+    "calibration_generations": 40
+  },
+  "electricity:NFGA-Core": {
+    "calibration_seed": 20260731,
+    "n_fit": 119,
+    "n_validation": 30,
+    "selected_K": 5,
+    "calibration_time_sec": 0.7384244520007996,
+    "calibration_generations": 40
+  },
+  "electricity:NFGA-LINEAR": {
+    "calibration_seed": 20260731,
+    "n_fit": 119,
+    "n_validation": 30,
+    "selected_K": 8,
+    "calibration_time_sec": 0.8714950949997728,
+    "calibration_generations": 40
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55,
+    66,
+    77,
+    88,
+    99,
+    110
+  ],
+  "calibration_seed": 20260731,
+  "models": {
+    "NFGA-Core": "Gaussian antecedents with zero-order constant consequents.",
+    "NFGA-LINEAR": "Gaussian antecedents with full local linear consequents over all lagged window inputs plus intercept."
+  },
+  "shared_ga_configuration": {
+    "K_min": 2,
+    "K_max": 8,
+    "population_size": 25,
+    "maximum_generations": 40,
+    "tournament_size": 3,
+    "elite_count": 2,
+    "stopping_patience": 10,
+    "minimum_improvement": 1e-06,
+    "crossover_probability": 0.9,
+    "center_mutation_probability": 0.25,
+    "sigma_mutation_probability": 0.25,
+    "consequent_mutation_probability": 0.3,
+    "rule_insertion_probability": 0.1,
+    "rule_deletion_probability": 0.08,
+    "lambda_rules": 0.005,
+    "lambda_weights": 1e-06
+  },
+  "fitness": "training RMSE on scaled targets + normalized rule-count penalty + small consequent-weight L2 penalty",
+  "validation": "last 20% of training windows is used only to calibrate the residual anomaly threshold with an independent calibration seed",
+  "test_protocol": "fixed trained model, full test one-step-ahead forecasting, using previously observed scenario values in subsequent windows"
+}
