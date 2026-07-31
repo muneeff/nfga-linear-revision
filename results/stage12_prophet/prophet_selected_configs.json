@@ -1,0 +1,32 @@
+{
+  "cholera": {
+    "changepoint_prior_scale": 0.1,
+    "seasonality_prior_scale": 1.0,
+    "seasonality_mode": "additive",
+    "validation_protocol": "last 20 percent of training observations",
+    "test_protocol": "full one-step-ahead walk-forward refitting",
+    "nonnegative_prediction_clipping": true,
+    "threshold": 552.0479,
+    "threshold_method": "median_plus_k_scaled_mad"
+  },
+  "ilinet": {
+    "changepoint_prior_scale": 0.01,
+    "seasonality_prior_scale": 1.0,
+    "seasonality_mode": "additive",
+    "validation_protocol": "last 20 percent of training observations",
+    "test_protocol": "full one-step-ahead walk-forward refitting",
+    "nonnegative_prediction_clipping": true,
+    "threshold": 1.9194364237418278,
+    "threshold_method": "median_plus_k_scaled_mad"
+  },
+  "electricity": {
+    "changepoint_prior_scale": 0.1,
+    "seasonality_prior_scale": 1.0,
+    "seasonality_mode": "additive",
+    "validation_protocol": "last 20 percent of training observations",
+    "test_protocol": "full one-step-ahead walk-forward refitting",
+    "nonnegative_prediction_clipping": true,
+    "threshold": 0.4575349218656561,
+    "threshold_method": "median_plus_k_scaled_mad"
+  }
+}

@@ -1,0 +1,4 @@
+dataset,model,threshold,calibration_residual_median,calibration_residual_mad,threshold_method,n_calibration_residuals
+cholera,Prophet,552.0479,194.0,69.0,median_plus_k_scaled_mad,67
+ilinet,Prophet,1.9194364237418278,1.2079041286960397,0.13712055945073098,median_plus_k_scaled_mad,42
+electricity,Prophet,0.4575349218656561,0.11665006483756724,0.06569248174598463,median_plus_k_scaled_mad,33

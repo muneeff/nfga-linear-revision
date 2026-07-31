@@ -1,0 +1,39 @@
+{
+  "prophet_role": "forecasting baseline",
+  "candidate_configurations": [
+    {
+      "changepoint_prior_scale": 0.01,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive"
+    },
+    {
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive"
+    },
+    {
+      "changepoint_prior_scale": 0.1,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "additive"
+    },
+    {
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 10.0,
+      "seasonality_mode": "additive"
+    },
+    {
+      "changepoint_prior_scale": 0.05,
+      "seasonality_prior_scale": 1.0,
+      "seasonality_mode": "multiplicative"
+    }
+  ],
+  "selection": "lowest RMSE on chronological validation within training only",
+  "test_protocol": "one-step-ahead walk-forward with refitting after each observed test value",
+  "seasonality": {
+    "yearly": true,
+    "weekly": false,
+    "daily": false
+  },
+  "nonnegative_clipping": true,
+  "warning": "This implementation replaces the unreproducible/mislabeled Prophet pipeline from the original experimental code."
+}

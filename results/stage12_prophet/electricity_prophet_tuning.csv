@@ -1,0 +1,6 @@
+candidate_index,changepoint_prior_scale,seasonality_prior_scale,seasonality_mode,validation_RMSE,fit_time_sec,status,error_message,n_fit,n_validation
+2,0.1,1.0,additive,0.15353504106643692,0.0721194400002787,ok,,132,33
+4,0.05,1.0,multiplicative,0.15405662115767804,0.050929493999319675,ok,,132,33
+3,0.05,10.0,additive,0.15874172720169571,0.053046654000354465,ok,,132,33
+1,0.05,1.0,additive,0.15986571134527522,0.06377226600034192,ok,,132,33
+0,0.01,1.0,additive,0.16243207220476985,0.04815466499985632,ok,,132,33
