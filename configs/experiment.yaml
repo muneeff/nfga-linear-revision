@@ -1,0 +1,22 @@
+project_seed: 20260801
+seeds: [11, 22, 33, 44, 55, 66, 77, 88, 99, 111]
+datasets: [cholera, ilinet, electricity]
+train_fraction: 0.80
+anomaly:
+  nominal_rates: [0.05, 0.10]
+  modified_z_threshold: 3.5
+nfga:
+  k_min: 2
+  k_max: 12
+  population_size: 25
+  generations: 40
+  crossover_probability: 0.80
+  center_mutation_probability: 0.25
+  sigma_mutation_probability: 0.25
+  consequent_mutation_probability: 0.25
+  rule_insertion_probability: 0.12
+  rule_deletion_probability: 0.08
+  elitism: 1
+  tournament_size: 3
+  lambda_k: 0.01
+  patience: 8
