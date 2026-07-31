@@ -1,0 +1,22 @@
+dataset,model,baseline_k,baseline_macro_F1,best_k_descriptive_only,best_macro_F1_descriptive_only,absolute_gain_over_baseline,baseline_macro_FalsePositiveRate,best_macro_FalsePositiveRate,interpretation
+cholera,ARIMA,3.5,0.3404761904761905,2.0,0.38095238095238093,0.04047619047619044,0.14046052631578948,0.14046052631578948,descriptive test-scenario sensitivity only; not a tuning recommendation
+cholera,LSTM,3.5,0.19189000447137172,5.0,0.21505393553716914,0.023163931065797422,0.584703947368421,0.4925986842105264,descriptive test-scenario sensitivity only; not a tuning recommendation
+cholera,NFGA-Core,3.5,0.5526151699178015,5.0,0.6007929953678035,0.04817782545000204,0.08957236842105262,0.054210526315789466,descriptive test-scenario sensitivity only; not a tuning recommendation
+cholera,NFGA-LINEAR,3.5,0.5678409825468649,5.0,0.5898717948717949,0.022030812324929983,0.05500000000000001,0.047960526315789474,descriptive test-scenario sensitivity only; not a tuning recommendation
+cholera,Persistence,3.5,0.5641025641025641,2.0,0.6,0.03589743589743588,0.038157894736842106,0.04473684210526316,descriptive test-scenario sensitivity only; not a tuning recommendation
+cholera,SeasonalNaive,3.5,0.5333333333333333,2.0,0.7727272727272727,0.23939393939393938,0.0,0.0,descriptive test-scenario sensitivity only; not a tuning recommendation
+cholera,XGBoost,3.5,0.21285498775266953,5.0,0.2523819670082511,0.039526979255581574,0.36082236842105264,0.2485526315789474,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,ARIMA,3.5,0.6666666666666666,4.0,0.7333333333333334,0.06666666666666676,0.07763157894736841,0.06513157894736842,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,LSTM,3.5,0.7357575757575757,5.0,0.9177777777777777,0.18202020202020197,0.0569078947368421,0.014144736842105262,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,NFGA-Core,3.5,0.4345510567863509,5.0,0.5594911864880905,0.12494012970173957,0.2218421052631579,0.12940789473684208,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,NFGA-LINEAR,3.5,0.6395604395604395,5.0,0.7296969696969697,0.09013653013653022,0.08934210526315789,0.06368421052631579,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,Persistence,3.5,0.6666666666666666,3.5,0.6666666666666666,0.0,0.07763157894736841,0.07763157894736841,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,SeasonalNaive,3.5,1.0,3.0,1.0,0.0,0.0,0.0,descriptive test-scenario sensitivity only; not a tuning recommendation
+electricity,XGBoost,3.5,0.6683982683982684,5.0,0.9733333333333333,0.30493506493506484,0.07197368421052631,0.005197368421052631,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,ARIMA,3.5,0.3537549407114624,5.0,0.40476190476190477,0.05100696405044236,0.3015631784628745,0.23947025618758142,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,LSTM,3.5,0.43904357897004953,5.0,0.4648601398601399,0.02581656089009038,0.1506079027355623,0.1175640468953539,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,NFGA-Core,3.5,0.27234848484848484,2.0,0.5166183816183816,0.24426989676989674,0.059552757273122016,0.10625271385149804,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,NFGA-LINEAR,3.5,0.4669203646370829,4.5,0.46933823529411767,0.0024178706570347486,0.18577941815023882,0.16404689535388622,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,Persistence,3.5,0.34782608695652173,5.0,0.3771929824561403,0.029366895499618573,0.3117672600955276,0.228831958315241,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,SeasonalNaive,3.5,0.14285714285714285,2.0,0.4818181818181818,0.33896103896103896,0.06252713851498046,0.08336951801997394,descriptive test-scenario sensitivity only; not a tuning recommendation
+ilinet,XGBoost,3.5,0.40481940144478845,3.5,0.40481940144478845,0.0,0.22299174989144593,0.22299174989144593,descriptive test-scenario sensitivity only; not a tuning recommendation

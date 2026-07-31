@@ -1,0 +1,15 @@
+{
+  "k_values": [
+    2.0,
+    2.5,
+    3.0,
+    3.5,
+    4.0,
+    4.5,
+    5.0
+  ],
+  "baseline_k": 3.5,
+  "threshold_formula": "median(calibration absolute residuals) + k * 1.4826 * MAD(calibration absolute residuals)",
+  "main_analysis_rule": "Retain the prespecified baseline k=3.5. Do not select k using injected test scenarios.",
+  "proxy_label_warning": "Robust-z proxy labels are exploratory and are not verified ground-truth anomalies."
+}
