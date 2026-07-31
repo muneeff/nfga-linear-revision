@@ -1,0 +1,19 @@
+{
+  "figure_count": 14,
+  "formats": [
+    "PDF",
+    "PNG at 300 dpi"
+  ],
+  "tables": [
+    "final forecasting performance",
+    "matched NFGA ablation",
+    "macro detector performance",
+    "computational resource costs"
+  ],
+  "plotting_library": "matplotlib",
+  "important_notes": [
+    "No result values are recomputed in this script.",
+    "Prophet and XGBoost are treated as numerically tied on Electricity.",
+    "Error bars are shown only where multiseed standard deviations exist."
+  ]
+}

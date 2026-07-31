@@ -1,0 +1,15 @@
+figure,purpose
+forecast_rmse_cholera,Final RMSE ranking for cholera; error bars denote standard deviation across ten seeds where applicable.
+forecast_rmse_electricity,Final RMSE ranking for electricity; error bars denote standard deviation across ten seeds where applicable.
+forecast_rmse_ilinet,Final RMSE ranking for ilinet; error bars denote standard deviation across ten seeds where applicable.
+nfga_matched_rmse_ablation,Matched-seed RMSE benefit of local linear consequents over zero-order NFGA-Core.
+detector_macro_f1,Macro-F1 comparison across synthetic injected scenarios. Proxy robust-z labels are excluded.
+nfga_sensitivity_cholera,One-factor-at-a-time RMSE sensitivity for cholera. Negative values indicate improvement.
+nfga_sensitivity_electricity,One-factor-at-a-time RMSE sensitivity for electricity. Negative values indicate improvement.
+nfga_sensitivity_ilinet,One-factor-at-a-time RMSE sensitivity for ilinet. Negative values indicate improvement.
+threshold_sensitivity_cholera,Descriptive anomaly-threshold sensitivity for cholera; the main analysis retains k=3.5.
+threshold_sensitivity_electricity,Descriptive anomaly-threshold sensitivity for electricity; the main analysis retains k=3.5.
+threshold_sensitivity_ilinet,Descriptive anomaly-threshold sensitivity for ilinet; the main analysis retains k=3.5.
+online_latency_cholera,Online per-step timing for cholera. Prophet and ARIMA include walk-forward refitting; fixed models do not.
+online_latency_electricity,Online per-step timing for electricity. Prophet and ARIMA include walk-forward refitting; fixed models do not.
+online_latency_ilinet,Online per-step timing for ilinet. Prophet and ARIMA include walk-forward refitting; fixed models do not.
