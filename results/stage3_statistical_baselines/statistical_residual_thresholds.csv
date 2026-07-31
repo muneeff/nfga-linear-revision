@@ -1,0 +1,10 @@
+dataset,model,threshold,training_residual_median,training_residual_mad,threshold_method,n_training_residuals
+cholera,Persistence,1094.30885,194.0,173.5,median_plus_k_scaled_mad,332
+cholera,SeasonalNaive,16678.5766,3052.0,2626.0,median_plus_k_scaled_mad,281
+cholera,ARIMA,1160.4317098371575,208.6429749369126,183.4207733326097,median_plus_k_scaled_mad,328
+ilinet,Persistence,0.4231594850000001,0.09443000000000001,0.06335000000000002,median_plus_k_scaled_mad,207
+ilinet,SeasonalNaive,2.7399471560000004,0.6167750000000001,0.4091600000000001,median_plus_k_scaled_mad,156
+ilinet,ARIMA,0.3432247549299796,0.07470370196752563,0.05174713398517161,median_plus_k_scaled_mad,203
+electricity,Persistence,0.475193499980793,0.10922943136129354,0.07052553788123173,median_plus_k_scaled_mad,164
+electricity,SeasonalNaive,0.5339720696125221,0.129476086525104,0.07795108652510419,median_plus_k_scaled_mad,113
+electricity,ARIMA,0.4706407928858513,0.11299896501846723,0.06892174517110561,median_plus_k_scaled_mad,160

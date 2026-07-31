@@ -1,0 +1,18 @@
+{
+  "protocol": "full_test_one_step_ahead_walk_forward",
+  "forecast_evaluation": "clean original test series only",
+  "anomaly_evaluation": "forecast each contaminated scenario before observing its current value; append the observed scenario value to history for the next step",
+  "threshold": {
+    "formula": "median(training_abs_residuals) + 3.5 * 1.4826 * MAD",
+    "fallback": "median + 3 * standard_deviation"
+  },
+  "seasonal_lag": 52,
+  "arima_candidates": [
+    "(1, 0, 0)",
+    "(1, 1, 0)",
+    "(2, 1, 0)",
+    "(1, 1, 1)",
+    "(2, 1, 1)",
+    "(3, 1, 0)"
+  ]
+}

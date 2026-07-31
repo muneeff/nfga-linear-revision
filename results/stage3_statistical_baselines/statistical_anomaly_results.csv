@@ -1,0 +1,28 @@
+dataset,model,scenario,n_eval,n_reference_anomalies,n_detected,Precision,Recall,F1,metric_status,threshold,mean_inference_latency_sec,selected_order
+cholera,Persistence,injected_5pct,84,4,8,0.5,1.0,0.6666666666666666,applicable,1094.30885,3.177143092952541e-07,
+cholera,Persistence,injected_10pct,84,8,5,0.6,0.375,0.46153846153846156,applicable,1094.30885,3.501785819199064e-07,
+cholera,Persistence,proxy_robust_z,84,0,0,,,,not_applicable_no_positive_reference,1094.30885,3.135714147598871e-07,
+cholera,SeasonalNaive,injected_5pct,84,4,2,1.0,0.5,0.6666666666666666,applicable,16678.5766,5.397857443139878e-07,
+cholera,SeasonalNaive,injected_10pct,84,8,2,1.0,0.25,0.4,applicable,16678.5766,4.67190467307297e-07,
+cholera,SeasonalNaive,proxy_robust_z,84,0,0,,,,not_applicable_no_positive_reference,16678.5766,5.337142716771701e-07,
+cholera,ARIMA,injected_5pct,84,4,17,0.23529411764705882,1.0,0.38095238095238093,applicable,1160.4317098371575,0.009895603559525193,"(3, 1, 0)"
+cholera,ARIMA,injected_10pct,84,8,12,0.25,0.375,0.3,applicable,1160.4317098371575,0.010030632404745379,"(3, 1, 0)"
+cholera,ARIMA,proxy_robust_z,84,0,0,,,,not_applicable_no_positive_reference,1160.4317098371575,0.015110136940496063,"(3, 1, 0)"
+ilinet,Persistence,injected_5pct,52,3,20,0.15,1.0,0.2608695652173913,applicable,0.4231594850000001,3.30673042998779e-07,
+ilinet,Persistence,injected_10pct,52,5,18,0.2777777777777778,1.0,0.43478260869565216,applicable,0.4231594850000001,3.576153805904771e-07,
+ilinet,Persistence,proxy_robust_z,52,11,14,0.7142857142857143,0.9090909090909091,0.8,applicable,0.4231594850000001,3.5480767424954905e-07,
+ilinet,SeasonalNaive,injected_5pct,52,3,4,0.25,0.3333333333333333,0.2857142857142857,applicable,2.7399471560000004,5.931730654013406e-07,
+ilinet,SeasonalNaive,injected_10pct,52,5,3,0.0,0.0,0.0,applicable,2.7399471560000004,5.38288444519052e-07,
+ilinet,SeasonalNaive,proxy_robust_z,52,11,3,1.0,0.2727272727272727,0.42857142857142855,applicable,2.7399471560000004,4.387884123738891e-07,
+ilinet,ARIMA,injected_5pct,52,3,19,0.15789473684210525,1.0,0.2727272727272727,applicable,0.3432247549299796,0.07148267432693536,"(1, 1, 1)"
+ilinet,ARIMA,injected_10pct,52,5,18,0.2777777777777778,1.0,0.43478260869565216,applicable,0.3432247549299796,0.08759942680764582,"(1, 1, 1)"
+ilinet,ARIMA,proxy_robust_z,52,11,9,0.8888888888888888,0.7272727272727273,0.8,applicable,0.3432247549299796,0.0994613351154105,"(1, 1, 1)"
+electricity,Persistence,injected_5pct,42,2,4,0.5,1.0,0.6666666666666666,applicable,0.475193499980793,3.4319046313785724e-07,
+electricity,Persistence,injected_10pct,42,4,8,0.5,1.0,0.6666666666666666,applicable,0.475193499980793,3.223095258623029e-07,
+electricity,Persistence,proxy_robust_z,42,0,0,,,,not_applicable_no_positive_reference,0.475193499980793,2.99904816832471e-07,
+electricity,SeasonalNaive,injected_5pct,42,2,2,1.0,1.0,1.0,applicable,0.5339720696125221,5.567857594238982e-07,
+electricity,SeasonalNaive,injected_10pct,42,4,4,1.0,1.0,1.0,applicable,0.5339720696125221,5.31357099611168e-07,
+electricity,SeasonalNaive,proxy_robust_z,42,0,0,,,,not_applicable_no_positive_reference,0.5339720696125221,5.154762069044713e-07,
+electricity,ARIMA,injected_5pct,42,2,4,0.5,1.0,0.6666666666666666,applicable,0.4706407928858513,0.02923347992859384,"(1, 0, 0)"
+electricity,ARIMA,injected_10pct,42,4,8,0.5,1.0,0.6666666666666666,applicable,0.4706407928858513,0.03006450471428122,"(1, 0, 0)"
+electricity,ARIMA,proxy_robust_z,42,0,0,,,,not_applicable_no_positive_reference,0.4706407928858513,0.02974410178571166,"(1, 0, 0)"
