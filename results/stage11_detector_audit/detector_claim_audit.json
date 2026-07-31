@@ -1,0 +1,31 @@
+{
+  "injected_scenarios_evaluated_for_nfga": 6,
+  "nfga_best_f1_scenario_count": 5,
+  "nfga_best_f1_fraction": 0.8333333333333334,
+  "best_macro_detector_by_dataset": [
+    {
+      "dataset": "cholera",
+      "detector": "NFGA-LINEAR residual detector",
+      "macro_F1": 0.5678409825468649,
+      "macro_FalsePositiveRate": 0.055
+    },
+    {
+      "dataset": "electricity",
+      "detector": "NFGA-LINEAR residual detector",
+      "macro_F1": 0.6395604395604395,
+      "macro_FalsePositiveRate": 0.08934210526315789
+    },
+    {
+      "dataset": "ilinet",
+      "detector": "NFGA-LINEAR residual detector",
+      "macro_F1": 0.46692036463708286,
+      "macro_FalsePositiveRate": 0.18577941815023882
+    }
+  ],
+  "allowed_claim": "NFGA-LINEAR's residual detector achieved the highest F1 in most synthetic injected scenarios, while performance remained scenario-dependent.",
+  "forbidden_claims": [
+    "NFGA-LINEAR was universally the best anomaly detector.",
+    "Robust-Z achieved perfect real-world anomaly detection on ILINet.",
+    "Proxy-label results constitute verified ground-truth validation."
+  ]
+}
