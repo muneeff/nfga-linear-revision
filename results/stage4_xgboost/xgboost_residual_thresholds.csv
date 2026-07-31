@@ -1,0 +1,4 @@
+dataset,model,threshold,calibration_residual_median,calibration_residual_mad,threshold_method,n_calibration_residuals
+cholera,XGBoost,365.8738648466183,95.00673571803205,52.199250183767184,median_plus_k_scaled_mad,56
+ilinet,XGBoost,0.42912499258615805,0.08527677004864158,0.06626355678971622,median_plus_k_scaled_mad,37
+electricity,XGBoost,0.2642871716632531,0.09247647360845065,0.03310992234776791,median_plus_k_scaled_mad,30
