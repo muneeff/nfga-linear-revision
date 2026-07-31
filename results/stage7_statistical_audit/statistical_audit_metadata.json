@@ -1,0 +1,18 @@
+{
+  "primary_model": "NFGA-LINEAR",
+  "stochastic_models": [
+    "XGBoost",
+    "LSTM",
+    "NFGA-Core",
+    "NFGA-LINEAR"
+  ],
+  "forecast_metrics": [
+    "RMSE",
+    "MAE",
+    "sMAPE"
+  ],
+  "multiple_comparison_correction": "Holm step-down within each dataset and metric",
+  "bootstrap_repetitions": 20000,
+  "bootstrap_seed": 20260801,
+  "interpretation": "Positive paired benefit and positive rank-biserial effect favor NFGA-LINEAR. Deterministic single-run baselines are descriptive only."
+}
