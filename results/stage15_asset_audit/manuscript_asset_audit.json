@@ -1,0 +1,30 @@
+{
+  "assets_dir": "results/stage14_manuscript_assets",
+  "manifest_figure_count": 14,
+  "figures_passing": 14,
+  "figures_failing": 0,
+  "all_figures_pass": true,
+  "latex_table_audit": {
+    "exists": true,
+    "size_bytes": 6003,
+    "table_count": 4,
+    "balanced_table_environments": true,
+    "balanced_tabular_environments": true,
+    "required_labels_present": true,
+    "literal_hline_found": false,
+    "unmatched_brace_count": 0
+  },
+  "contact_sheets": [
+    "results/stage15_asset_audit/manuscript_figure_contact_sheet_1.png",
+    "results/stage15_asset_audit/manuscript_figure_contact_sheet_2.png",
+    "results/stage15_asset_audit/manuscript_figure_contact_sheet_3.png"
+  ],
+  "overall_structural_pass": true,
+  "manual_review_required": [
+    "Check that text is readable at journal column width.",
+    "Check that axes, legends, and labels are not clipped.",
+    "Check that numerical annotations do not overlap bars.",
+    "Check that the Electricity Prophet/XGBoost tie note is visible.",
+    "Check that all table captions and footnotes match manuscript claims."
+  ]
+}

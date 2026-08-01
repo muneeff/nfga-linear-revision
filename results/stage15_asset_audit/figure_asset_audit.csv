@@ -1,0 +1,15 @@
+figure,png_exists,png_valid,png_size_bytes,width_px,height_px,dpi_x,dpi_y,dpi_approximately_300,pdf_exists,pdf_header_valid,pdf_size_bytes,figure_pass
+forecast_rmse_cholera,True,True,128241,2427,1525,299.9994,299.9994,True,True,True,17449,True
+forecast_rmse_electricity,True,True,136395,2428,1525,299.9994,299.9994,True,True,True,19017,True
+forecast_rmse_ilinet,True,True,117108,2426,1525,299.9994,299.9994,True,True,True,17487,True
+nfga_matched_rmse_ablation,True,True,99665,2255,1346,299.9994,299.9994,True,True,True,16906,True
+detector_macro_f1,True,True,233209,2970,1586,299.9994,299.9994,True,True,True,17871,True
+nfga_sensitivity_cholera,True,True,173467,2670,1825,299.9994,299.9994,True,True,True,18491,True
+nfga_sensitivity_electricity,True,True,169240,2668,1825,299.9994,299.9994,True,True,True,18598,True
+nfga_sensitivity_ilinet,True,True,171109,2668,1825,299.9994,299.9994,True,True,True,18339,True
+threshold_sensitivity_cholera,True,True,124959,2190,1346,299.9994,299.9994,True,True,True,17622,True
+threshold_sensitivity_electricity,True,True,121823,2190,1346,299.9994,299.9994,True,True,True,16314,True
+threshold_sensitivity_ilinet,True,True,114103,2190,1346,299.9994,299.9994,True,True,True,16594,True
+online_latency_cholera,True,True,99784,2429,1512,299.9994,299.9994,True,True,True,17887,True
+online_latency_electricity,True,True,100230,2426,1512,299.9994,299.9994,True,True,True,18140,True
+online_latency_ilinet,True,True,97966,2429,1512,299.9994,299.9994,True,True,True,17865,True
