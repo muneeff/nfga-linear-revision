@@ -1,0 +1,13 @@
+{
+  "source_stage17": "results/stage17_final_assets",
+  "patched_figures": [
+    "fig1_forecast_rmse_overview",
+    "fig4_online_latency_overview"
+  ],
+  "changes": [
+    "Reserved additional bottom margin for figure notes.",
+    "Moved the Electricity numerical-tie note below Figure 1.",
+    "Moved the ARIMA/Prophet refitting note below Figure 4.",
+    "No numerical values or rankings were changed."
+  ]
+}
