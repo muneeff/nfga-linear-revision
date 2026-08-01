@@ -1,0 +1,24 @@
+{
+  "final_polish": [
+    "Corrected ILINet capitalization",
+    "Moved Electricity tie statement to a figure-level note",
+    "Added grayscale-friendly hatch patterns to detector bars",
+    "Clarified that ARIMA and Prophet include per-step refitting",
+    "Used Holm-adjusted p wording in the primary ablation figure"
+  ],
+  "main_figures": [
+    "fig1_forecast_rmse_overview",
+    "fig2_nfga_primary_rmse_ablation",
+    "fig3_detector_macro_f1",
+    "fig4_online_latency_overview"
+  ],
+  "supplementary_figures": [
+    "figS1_nfga_ofat_sensitivity",
+    "figS2_threshold_sensitivity"
+  ],
+  "primary_rmse_holm_adjusted_p": {
+    "cholera": 0.005859375,
+    "ilinet": 0.005859375,
+    "electricity": 0.037109375
+  }
+}
